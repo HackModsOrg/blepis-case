@@ -12,6 +12,7 @@ A 3D printed case designed to fit a Beepis/Beepy board. Files provided are in Fr
 * `Lid +wider GPIO cut`: top part
 * `Back shell +cell sep`: bottom part
 * `microUSB plug`: cover for the microUSB plug needed to make contact with Pi Zero's microUSB data port.
+* `Keeb spacer`: a thin flat part that goes under the keyboard to make it flush with top of the lid. Imperfect and to be tweaked soon, but it's pretty helpful already.
 
 Designed for 0.4mm printer nozzle width. In our experience, is best printed at 0.1mm layer height. No supports expected, though the microUSB cover and M3 nuts might be a little tricky in that regard; expect to have to clean up these two spots a little after printing.
 
@@ -22,7 +23,7 @@ Designed for 0.4mm printer nozzle width. In our experience, is best printed at 0
 
 ### Modding capabilities:
 
-A 46x104mm 4-screw rectangle pattern, expects four M2.5 screw. Currently available parts:
+A 46x104mm 4-screw rectangle pattern, expects four threaded inserts for M2.5 screws. Currently available parts:
 
 * A waist clip. See `beepis_waist_1` for v2. More upgrades and accessories for it incoming!
 * A holder base with holes for two countersunk screws. Incompatible with the waist clip, **deprecated**; see `beepis_holder_base` for v0.
