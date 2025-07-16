@@ -24,7 +24,7 @@ Designed for 0.4mm printer nozzle width. In our experience, is best printed at 0
 
 A 46x104mm 4-screw rectangle pattern, expects four M2.5 screw. Currently available parts:
 
-* A waist clip. See `beepis_waist_1` for v1. More upgrades and accessories for it incoming!
+* A waist clip. See `beepis_waist_1` for v2. More upgrades and accessories for it incoming!
 * A holder base with holes for two countersunk screws. Incompatible with the waist clip, **deprecated**; see `beepis_holder_base` for v0.
 
 ### Required parts:
