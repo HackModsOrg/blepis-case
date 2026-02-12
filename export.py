@@ -39,17 +39,12 @@ for obj in objs:
     if add_obj is None:
         print("Cannot find pair object for {obj.Label} ({add_obj_name_start})")
         import sys; sys.exit(1)
-    print(obj.Shape)
-    print(type(obj.Shape))
-    f = obj.Shape.fuse(add_obj.Shape)
-    #print(obj.Label, add_obj.Label, f)
-    #comp = Part.Compound([obj, add_obj])
+    fuse = obj.Shape.fuse(add_obj.Shape)
 
-    ooobj = doc.addObject("Part::Feature", "feature1")
-    ooobj.Shape = f #comp
+    ooobj = doc.addObject("Part::Feature", f"{obj.Label}+{add_obj.Label}")
+    ooobj.Shape = fuse
     doc.recompute()
     ooobj.Shape.exportStl(filename, 1)
     print(f"Exported {filename}")
 
-#import time; time.sleep(10)
-#sys.exit(0)
+sys.exit(0)
