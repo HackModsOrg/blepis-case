@@ -23,7 +23,7 @@ for obj in objs:
     # first export all non-compound so that the simplest stuff always succeeds
     if obj.Label not in compound_objs:
         filename = base_filename + "_" + obj.Label + ".stl"
-        obj.Shape.exportStl(filename, 1)
+        obj.Shape.exportStl(filename)
         print(f"Exported {filename}")
 
 for obj in objs:
@@ -44,7 +44,7 @@ for obj in objs:
     ooobj = doc.addObject("Part::Feature", f"{obj.Label}+{add_obj.Label}")
     ooobj.Shape = fuse
     doc.recompute()
-    ooobj.Shape.exportStl(filename, 1)
+    ooobj.Shape.exportStl(filename)
     print(f"Exported {filename}")
 
 sys.exit(0)
