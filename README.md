@@ -1,5 +1,15 @@
 # blepis-case
 
+# [MOVED TO GITLAB](https://gitlab.com/0xhackmods/blepis-case)
+
+# [MOVED TO GITLAB](https://gitlab.com/0xhackmods/blepis-case)
+
+# [MOVED TO GITLAB](https://gitlab.com/0xhackmods/blepis-case)
+
+# [MOVED TO GITLAB](https://gitlab.com/0xhackmods/blepis-case)
+
+# [MOVED TO GITLAB](https://gitlab.com/0xhackmods/blepis-case)
+
 A 3D printed case designed to fit a Blepis/Beepy board. Files provided are in FreeCAD (actual source files, not STL).
 
 ## v2.0 - is compatible with Blepis v2, likely all final quality of life features complete!
